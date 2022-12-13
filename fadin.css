@@ -1,0 +1,79 @@
+.atributos:hover{
+    background-image: url(https://s3.amazonaws.com/static.rogerebert.com/uploads/review/primary_image/reviews/titanic-1997/Titanic-2017.jpg);
+    background-repeat: no-repeat;
+    transition: 0.8s;
+    height: 500px;
+    width: 1300px;
+    -webkit-animation: tita 2s ease-in-out;
+    -moz-animation: tita 2s ease-in-out;
+    -o-animation: tita 2s ease-in-out;
+    animation: tita 2s ease-in-out;
+}
+@-webkit-keyframes tita {
+    0% { opacity: 0; }
+    100% { opacity: 1; } 
+    }
+    @-moz-keyframes tita {
+    0% { opacity: 0;}
+    100% { opacity: 1; }
+    }
+    @-o-keyframes tita {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+    }
+    @keyframes tita {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+    }
+
+    #king:hover{
+        background-image: url(https://www.guiadasemana.com.br/contentFiles/system/pictures/2012/11/61487/original/roturn-king-minas-tirith.jpg);
+        background-repeat: no-repeat;
+        background-position: 25% 75%;
+    }
+
+    #mil:hover{
+        background-image: url(https://f001.backblazeb2.com/file/papocine/2012/04/20180719-1200.jpg);
+        background-repeat: no-repeat;
+        background-position: 25% 45%;
+    }
+
+    #parasite:hover{
+        background-image: url(./asserts/What-is-the-Movie-Parasite-About-Parasite-Movie-Explained-Parasite-Movie-Analysis-Video-Essay-StudioBinder.jpg);
+        background-repeat: no-repeat;
+        background-position: 25% 15%;
+    }
+
+    #ghost:hover{
+        background-image: url(./asserts/itl.cat_cyberpunk-wallpaper_323459.png);
+        background-repeat: no-repeat;
+        background-position: 25% 15%;
+    }
+
+    #demon:hover{
+        background-image: url(https://i.pinimg.com/originals/8b/32/d0/8b32d067365c6c4055544febc7de75d7.jpg);
+        background-repeat: no-repeat;
+        background-position: 25% 15%;
+    }
+
+    #chihiro:hover{
+        background-image: url(./asserts/Konachan.com-71941-nigihayami_kohakunushi-ogino_chihiro-spirited_away.jpg);
+        background-repeat: no-repeat;
+        background-position: 25% 15%;
+    }
+    #br1:hover{
+        background-image: url(https://mediavideo.blastingnews.com/p/4/2021/04/13/48a02b77-a8a0-47b3-8ca6-4e0303339ef9.jpg);
+        background-repeat: no-repeat;
+        background-position: 25% 15%;
+    }
+    #br2:hover{
+        background-image: url(./asserts/teahub.io-wallpaper-cidade-2844876.jpg);
+        background-repeat: no-repeat;
+        background-position: 25% 15%;
+    }
+    #br3:hover{
+        background-image: url(https://baurutv.files.wordpress.com/2017/01/tropa-elite-wagner-moura-fuzil.jpg?w=1535&h=768&crop=1);
+        background-repeat: no-repeat;
+        background-position: 25% 15%;
+    }
+

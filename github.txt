@@ -1,0 +1,45 @@
+cd 
+cd desktop
+git init
+git --version
+git config user.name "meu-usuario"
+git config user.email "meu-email"
+adicionando --global apos config voce deixa salvo por padrão
+
+sincronizar arquivo da minha maquina com o github
+git remote add origin https://github.com/meu-usuario/nome-dorepo
+git remote -v
+
+////////////////////////////////////////////////////////////////////
+
+1- git add .  (adiciona todas as modificações)
+2- git commit -m "mensagem qlqer" (commita/salva as modificações)
+3- git push origin master )envia as modificações ao repositorio remoto)
+git branch (olha qual a line)
+git checkout -b NomedaNovaBranch
+git chekout nomedabranchdesejada
+
+////////////////////////////////////////////////////////////////////
+
+criar pasta: mkdir nomedaPasta
+criar arquivo: type nul > nomedoArquivo.extensaoDoArquivo
+
+////////////////////////////////////////////////////////////////////
+
+baixando arquivo do github
+no git bash
+-git clone e colo a url do projeto (para clonar o repositorio pela primeira vez)
+-ls (para conferir se deu certo)
+-git pull origin master (pra atualizar)
+
+////////////////////////////////////////////////////////////////////
+
+GIT LOG - Podemos listar o histórico de commits utilizados com o comando git log.
+Este comando exibe todos os commits.
+Entre outras coisas, esse comando exibe o nome do autor, data e hora da
+realização do commit e o código hash que identifica a cada commit.
+
+Unindo Branches
+git merge <OUTRA_BRANCH>  - Tenta criar um novo commit unindo a branch atual a uma outra branch.
+
+teste
