@@ -1,0 +1,132 @@
+body{
+    background-image: url(../atvHTML2/pexels-osama-naser-9287741.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+  
+    
+}
+h1, ul, p, .trailer{
+    color: white;
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 1em;
+  border-radius: 0.5em;
+  list-style-type: none;
+}
+ul{
+    width: 600px;
+    font-size: 20px;
+}
+.imagem:hover, .atributos p:hover, .trailer:hover{
+    color: rgb(189, 241, 236);
+    transition: 1s;
+    text-shadow: 0 0 8px white;
+    font-size: 20px;
+}
+
+.main{
+    display: block;
+    
+}
+
+.cartaz{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+.atributos{
+    align-items: center;
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.atributos p, .trailer{
+   max-width: 700px;
+   align-items: center;
+   font-size: 16px;
+   
+}
+h2{
+    max-width: 400px;
+  color: white;
+    margin: 25px 0px 10px 40px;
+  
+}
+
+
+.maini{
+    display: block;   
+   max-width: 1240px;
+}
+.elements{
+    
+    
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-top: 50px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 10px;
+    
+}
+.film{
+    background:linear-gradient(
+        hsl(0 0% 0% / 0),
+        hsl(20 0% 0% / 0.3) 20%,
+        hsl(0 0% 0% / 1)
+    );
+    height: 300px;
+
+    margin-bottom: 30px;
+    border-radius: 4%; 
+    transition: transform 500ms ease;
+}
+
+
+
+.film img{
+    width: 180px;
+    height: 200px;
+    margin-bottom: 50px;
+    padding: 1em;
+    border-radius: 0.5em;
+}
+.film img:hover{
+    transition: 0.5s;
+    width: 190px;
+    height: 210px;
+}
+
+
+.film h3{
+    align-items: center;
+    margin-left: 15px;
+    color: white;
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 1em;
+  border-radius: 0.5em;
+  width: 130px;
+}
+
+.film h3:hover{
+    color: turquoise;
+    transition: 1s;
+    text-shadow: 0 0 8px white;
+    font-size: 12px;
+}
+
+.footer{
+    font-size: 22px;
+}
+.footer a{
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 6px;
+    border-radius: 5px;
+}
+
+
+
+
